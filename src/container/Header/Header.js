@@ -48,7 +48,7 @@ const Header = () => {
             >
                 <img src={images.profile} alt="profile_bg" />
 
-                <motion.img
+                {/* <motion.img
                     whileInView={{ scale: [0, 1] }}
                     transition={{ duration: 1, ease: 'easeInOut' }}
                     src={images.circle}
@@ -56,7 +56,7 @@ const Header = () => {
                     className="overlay_circle"
                 >
 
-                </motion.img>
+                </motion.img> */}
             </motion.div>
 
             <motion.div
@@ -64,7 +64,7 @@ const Header = () => {
                 whileInView={scaleVariants.whileInview}
                 className="app__header-circles"
             >
-                {[images.react, images.node, images.sass].map((circle, index) => (
+                {[, images.node, images.react, images.photoshop].map((circle, index) => (
                     <div className='circle-cmp app__flex' key={`circle-${index}`}>
                         <img src={circle} alt="circle" />
                     </div>

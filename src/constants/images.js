@@ -5,10 +5,14 @@ import react from '../assets/react.png'
 import sass from '../assets/sass.png'
 import node from '../assets/node.png'
 import bgWhite from '../assets/bgWhite.png'
-import bgIMG from '../assets/bgIMG.png'
+import bgIMG from '../assets/bgIMG2.png'
 import about01 from '../assets/about01.png'
 import about02 from '../assets/about02.png'
 import about03 from '../assets/about03.png'
 import about04 from '../assets/about04.png'
+import mobile from '../assets/mobile.png'
+import email from '../assets/email.png'
+import workPlaceholder from '../assets/workPlaceholder.png'
+import photoshop from '../assets/photoshop.png'
 
-export default { logo, profile, circle, react, sass, node, bgWhite, bgIMG, about01, about02, about03, about04 };
+export default { logo, profile, circle, react, sass, node, bgWhite, bgIMG, about01, about02, about03, about04, mobile, email, workPlaceholder, photoshop };
