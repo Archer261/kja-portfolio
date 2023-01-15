@@ -19,7 +19,6 @@
     "react-tooltip": "^5.5.1",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "http://Archer261.github.io/kja-portfolio-2023",
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",
